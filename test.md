@@ -7,6 +7,7 @@ fn main() {
     io::stdin().read_line(&mut name).expect("Failed to read");
 
     println!("{}", name.trim_matches('!'));
+    println!("{}", name.trim_matches('!'));    
 }
 
 ```
